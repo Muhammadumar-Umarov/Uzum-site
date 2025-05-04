@@ -5,7 +5,13 @@ const collectionEl = document.querySelector(".collection")
 
 function renderRecipeDetail(data) {
   boxEl.innerHTML = `
-     
+      <div>
+        <img src=${data.images} width="400" alt=${data.title}>
+      </div>
+      <div>
+        <h1>${data.title}</h1>
+        <p>${data.price}$</p>
+      </div>
   `
 }
 
@@ -24,10 +30,4 @@ window.onload = () => {
 }
 
 
-//       <div>
-//         <img src=${data.images} width="400" alt=${data.title}>
-//       </div>
-//       <div>
-//         <h1>${data.title}</h1>
-//         <p>${data.price}$</p>
-//       </div>
+     
