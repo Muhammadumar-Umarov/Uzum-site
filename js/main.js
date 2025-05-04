@@ -1,4 +1,4 @@
-const BASE_URL = "https://dummyjson.com";
+  const BASE_URL = "https://dummyjson.com";
 
 export async function fetchData(endpoint, callback, callbackSkeleton) {
   const response = await fetch(`${BASE_URL}${endpoint}`);
