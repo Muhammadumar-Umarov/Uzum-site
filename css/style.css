@@ -216,6 +216,7 @@ nav .navigation {
     li {
         padding: 6px 10px 7px;
         text-wrap: nowrap;
+        text-transform: capitalize; 
     }
     li:hover{
         cursor: pointer;
@@ -522,6 +523,7 @@ section {
 }
 
 .btn-wrapper {
+    margin-top: 50px;
     text-align: center;
 }
 
